@@ -326,28 +326,7 @@ The migration logs to standard output via winston. For production, aggregate log
 
 ---
 
-# 🚢 **Deployment**
 
-AasPaas supports:
-
-* 🟦 **Render** (recommended)
-* 🐳 **Docker Image Deployment**
-* 🟢 **Static Hosting** (frontend)
-
-Render config includes:
-
-* `render.yaml`
-* Dockerfiles for frontend & backend
-* Auto-deploy on Git push (branch: main)
-
----
-
-# 👤 **Author**
-
-**Aharnish Dubey (aharnish5)**
-🔗 GitHub: [https://github.com/aharnish5/](https://github.com/aharnish5/)
-
----
 
 # 🎉 **Enjoy Building with AasPaas!**
 
