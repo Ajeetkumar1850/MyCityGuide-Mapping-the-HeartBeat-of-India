@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+  "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ES2020"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+  "moduleResolution": "Bundler",
+  "allowImportingTsExtensions": true,
+    "baseUrl": ".",
+    "paths": {
+      "@radix-ui/react-dialog": ["node_modules/@radix-ui/react-dialog/dist/index.d.ts"],
+      "@radix-ui/react-dropdown-menu": ["node_modules/@radix-ui/react-dropdown-menu/dist/index.d.ts"],
+      "@radix-ui/react-avatar": ["node_modules/@radix-ui/react-avatar/dist/index.d.ts"]
+    },
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "types": ["vitest/globals", "@testing-library/jest-dom", "node"]
+  },
+  "include": ["src", "tailwind.config.ts", "vite.config.ts"],
+  "references": []
+}
